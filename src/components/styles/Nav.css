@@ -1,0 +1,33 @@
+.nav {
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 4rem;
+  background-color: white;
+  padding: 0 100px;
+}
+
+.navTitle {
+  font-family: "Kanit";
+  font-size: var(--font-xl);
+}
+
+.menu {
+  width: 2rem;
+  height: 2rem;
+  background: url(../../assets/menu.svg);
+  background-position: center;
+  background-size: 1rem 1rem;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  transition: 200ms;
+  border-radius: 100%;
+}
+
+.menu:hover {
+  background-color: rgb(189, 189, 189);
+}

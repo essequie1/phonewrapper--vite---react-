@@ -1,0 +1,41 @@
+@import url(Nav.css);
+@import url(vars.css);
+@import url(Hero.css);
+@import url(CallToAction.css);
+@import url(Customizables.css);
+@import url(Footer.css);
+
+@font-face {
+  font-family: kanit-regular;
+  src: url(../../assets/fonts/kanit-regular.otf);
+}
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: var(--main-clr);
+  color: white;
+  font-family: kanit-regular;
+  font-size: var(--font-l);
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  transition: background-color 100ms ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--acc-clr);
+}
+
+.main-container {
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: 4rem;
+  overflow-y: scroll;
+  height: 100vh;
+  position: relative;
+}

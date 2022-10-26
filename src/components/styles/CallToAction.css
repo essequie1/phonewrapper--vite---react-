@@ -1,0 +1,57 @@
+.callToAction-container {
+  scroll-snap-align: end start;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container {
+  height: 30vh;
+  display: grid;
+  place-items: center;
+}
+
+.title-container > h2 {
+  font-family: kanit-regular;
+  font-size: var(--font-xl);
+}
+
+.callToAction-content {
+  display: flex;
+  height: 70vh;
+}
+
+.action-container {
+  position: relative;
+  display: flex;
+}
+
+.action-container > button {
+  position: absolute;
+  width: 200px;
+  left: 50%;
+  margin-left: -100px;
+  bottom: 4rem;
+}
+
+.container-title {
+  text-align: center;
+  width: 400px;
+  position: absolute;
+  font-family: kanit-regular;
+  font-size: var(--font-xl);
+  top: 3rem;
+  left: 50%;
+  margin-left: -200px;
+}
+
+.container-img {
+  background-color: #fafafc;
+  display: grid;
+  place-items: center;
+}
+
+.img {
+  width: 50%;
+  object-fit: contain;
+}

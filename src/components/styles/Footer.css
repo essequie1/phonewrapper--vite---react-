@@ -1,0 +1,10 @@
+.footer {
+  height: 100px;
+  width: 100vw;
+  background-color: black;
+  scroll-snap-align: end;
+  position: relative;
+  border: 2px solid red;
+  scroll-snap-stop: always;
+  scroll-padding-top: 100px;
+}

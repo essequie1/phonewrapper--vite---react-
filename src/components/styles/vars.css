@@ -1,0 +1,13 @@
+:root {
+  /* Font Sizes*/
+  --font-xl: 2rem;
+  --font-l: 1rem;
+  --font-m: 0.75rem;
+
+  /* Colors*/
+  --black: black;
+  --white: white;
+  --yellow: yellow;
+  --main-clr: #0090c1;
+  --acc-clr: #046e8f;
+}
